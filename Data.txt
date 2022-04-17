@@ -1,0 +1,43 @@
+# IDs
+MY_ID = 40193970
+PARTNER_ID = 40167840
+
+# my data
+p = 46523
+q = 36383
+N = 1692646309
+phi_N = 1692563404
+e = 1192553281
+d = 740376845
+
+# my partner data
+PARTNER_N = 775315049
+PARTNER_e = 72084229
+
+# encryption
+MY_MESSAGE = "Secure Text"
+MY_MESSAGE_chunks = ['Sec', 'ure', ' Te', 'xt']
+MY_CIPHERTEXT = [567013846, 154031064, 683381747, 713195104]
+
+# decryption
+PARTNER_CIPHERTEXT = [296903278, 1581324012, 1457336654, 485798237, 1066240178, 561749684, 1264687844]
+PARTNER_MESSAGE_chunks_AFTER_DECRYPT = ['Inf', 'orm', 'ati', 'on ', 'Sec', 'uri', 'ty']
+PARTNER_MESSAGE_AFTER_DECRYPT = "Information Security"
+
+
+# sign
+MY_MESSAGE_TO_BE_SIGNED = "Himanshu"
+MY_MESSAGE_TO_BE_SIGNED_chunks = ['Him', 'ans', 'hu']
+MY_SIGNATURE = [437696398, 1405305401, 1303231600]
+
+# verfiy the signature
+PARTNER_SIGNED_MESSAGE = "Himani Rajput"
+PARTNER_SIGNATURE = [649383299, 344090736, 465105025, 282068103, 228150614]
+#IS_VALID_SIGNATURE should be True or False
+IS_VALID_SIGNATURE = True
+
+
+
+COMMENTS = '''
+# If you have a short comment, write it here
+'''
